@@ -1,4 +1,5 @@
-# Q1 - Write a query to list the all the customers (include only customerid, companyname, city, and country contactname with no orders – “Orders column” in the output is OrderID*/ 
+# Q1 - Write a query to list the all the customers (include only customerid, companyname, city, and 
+country contactname with no orders – “Orders column” in the output is OrderID*/ 
 
 select customers.CustomerID, companyname, ContactName, OrderID
 from Customers
@@ -6,7 +7,8 @@ left outer join Orders on customers.customerid=orders.customerid
 where OrderID is null
 ;
 
-# Q2 - Write a query to list the all the customers (include only customerid, CompanyName, ContactName, and EmployeeID city, and country with orders processed by NO Employee*/
+# Q2 - Write a query to list the all the customers (include only customerid, CompanyName, ContactName, 
+and EmployeeID city, and country with orders processed by NO Employee*/
 output
 
 
@@ -18,8 +20,10 @@ where OrderID is null
 order by customerID desc
 ; 
 
-#Q3 - Write a query to identify High Value customers for the order between 01/01/2016 and 12/31/2016. All customers order value above 10,000  
-Columns included are CustomerID and Company Name from Customers, and OrderID from [Order Detail]. For Sum you will use aggregate function to sum UnitPrice x Quantity
+#Q3 - Write a query to identify High Value customers for the order between 01/01/2016 and 12/31/2016. 
+All customers order value above 10,000  
+Columns included are CustomerID and Company Name from Customers, and OrderID from [Order Detail]. 
+For Sum you will use aggregate function to sum UnitPrice x Quantity
 Output:
 
 select Customers.CustomerID, CompanyName, [Order Details].orderID, 
@@ -33,7 +37,9 @@ order by customerID desc
 ;
  
 #Q4 - Write a query to identify High Value customers for the order 
-between 01/01/1996 and 01/01/1997. All customers order value after discount is above 5000  Columns included are CustomerID and Company Name from Customers, and OrderID from [Order Detail]. For Sum you will use aggregate function to sum UnitPrice x Quantity*/
+between 01/01/1996 and 01/01/1997. 
+All customers order value after discount is above 5000  Columns included are CustomerID and Company Name from Customers, and OrderID from [Order Detail]. 
+For Sum you will use aggregate function to sum UnitPrice x Quantity*/
 Output:
 
 select Customers.customerID, CompanyName,
@@ -57,7 +63,8 @@ Where ShippedDate > RequiredDate
 Order by LateDays desc
 ;
 
-#Q6 - Write a query to list employeeid, Firstname, ordered from Orders table, ProductName from product table, and customerid from Orders table and Company from Customer table. There will be 2155 rows returned */
+#Q6 - Write a query to list employeeid, Firstname, ordered from Orders table, ProductName from product table, and customerid from Orders table and Company from Customer table.
+There will be 2155 rows returned */
 Output:
  
 select orders.OrderID,Products.ProductID, Products.ProductName, Employees.EmployeeID, Customers.CustomerID,
@@ -105,7 +112,8 @@ order by AVG(freight) DESC;
 
 
 
-# Q10 - Write a query to select CustomerID, CompanyName, and Total Order Amount. I want you to group the customers based on the TotalOrderAmount:
+# Q10 - Write a query to select CustomerID, CompanyName, and Total Order Amount. 
+I want you to group the customers based on the TotalOrderAmount:
 
 When TotalOrderAmount is between 0 and 1000 then Low Value Customer
 When TotalOrderAmount is between 1001 and 5000 then Medium Value Customer 
@@ -129,3 +137,4 @@ GROUP BY Customers.CustomerID, Customers.CompanyName
 order by sum([Order Details].UnitPrice * [Order Details].Quantity)DESC
 ;
 
+#All of the filtering is done through the Northwind databse
