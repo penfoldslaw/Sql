@@ -1,2 +1,2 @@
-# Sql
-Everything sql
+# Cottage Rental
+This is a SQL script that creates tables for a vacation rental management system. The tables include information on regions, cottages, prices, customers, bookings, and payments. The script also includes a way to import data from CSV files for the cottages, prices and customers tables. This script can be useful for those creating a database for a vacation rental management system or for examples of creating tables with foreign keys and importing data.
