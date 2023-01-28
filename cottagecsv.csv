@@ -1,0 +1,16 @@
+RegionID,CottageName ,NumberOFBed,CottageAddress,CottagePostcode ,CottageCity ,CottageState,CottageType,MaximumOccupancy
+1,Rose Cottage,2,"1025 Osgood St, North Andover, Maine,  01845",1845,North Andover,Maine,Vintage,4
+1,The Bungalow,4,"34 Gloucester St, Boston , Maine , 1848",1848,Boston,Maine,Southern,6
+1,The Coach House,6,"500 East a St S, Ogallala, New Hampshire, 69153",69153,Ogallala,New Hampshire,English,8
+2,Orchard House,2,"1801 45 St. SW, Fargo, Nevada, 58104",58104,Fargo,Nevada,Vintage,4
+2,The Lodge,4,"3401 U.S. 89, Bountiful, Utah, 84010",84010,Bountiful,Utah,Southern,6
+2,Woodlands,6,"9092 S Village Shop Dr, Sandy, Utah, 84094",84094,Sandy,Utah,English,8
+3,The Old School House,2,"910 SE Everett Mall Way,Everett,Washington,98208",98208,Everett,Washington,Vintage,4
+3,Ivy Cottage,4,"3001 6th Ave, Tacoma,Washington,98208",98208,Tacoma,Washington,Southern,6
+3,The Willows,6,"215 James St,Seattle,Washington,98104",98104,Seattle,Washington,English,8
+4, Primrose Cottage,2,"S31 W24687 Sunset Dr, Waukesha, West Virginia, 53189",53189,Waukesha,West Virginia,Vintage,4
+4,The Granary,4,"5211 Augusta Rd, Garden City, Georgia, 31408",31408,Garden City,Georgia,Southern,6
+4,The Nook,6,"3600 S Las Vegas Blvd, Las Vegas, North Carolina, 89109",89109, Las Vegas, North Carolina,English,8
+5,Corner Cottage,2,"127 Ontario Dr, Mt Hope,Wisconsin,25880",25880, Mt Hope,Wisconsin,Vintage,4
+5,School House,4,"9701 Nicollet Ave, Bloomington, Minnesota,55420",55420,Farmington,Minnesota,Southern,6
+5,The Barn ,6,"309 3rd St,Farmington,Minnesota,55024",55024,Farmington,Minnesota,English,8
